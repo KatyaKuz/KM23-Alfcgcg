@@ -30,10 +30,8 @@ def create_img(tr_p, path_save):
     matp.savefig(path_save+"\\image_affine.png")
     matp.show()
 
-#ds_path=input("Enter path where dataset: ")
-#ds_path_save=input("Enter path where image saves: ")
-ds_path="C:\\Users\\kk200\\Documents\\7 клас\\ASD\\DS9.txt"
-ds_path_save="C:\\Users\\kk200\\Documents\\7 клас\\ASD"
+ds_path=input("Enter path where dataset: ")
+ds_path_save=input("Enter path where image saves: ")
 n=9
 points_dt=dt_read(ds_path)
 alpha_angle=10*(n+1)
