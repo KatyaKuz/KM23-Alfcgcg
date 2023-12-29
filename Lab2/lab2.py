@@ -9,7 +9,7 @@ def dt_read(path):
 
 def xy_coord(path, var):
     coor=[]
-    list_ar=dt_read(dt_p)
+    list_ar=dt_read(path)
     for i in range(len(list_ar)):
         x.append(list_ar[i][var])
     return coor
